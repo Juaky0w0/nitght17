@@ -1,0 +1,57 @@
+.homes h3{  
+    text-align: center;
+    margin: 20px;
+    font-weight: 500;
+}
+.homes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 170px;
+}
+.boton-personalizado-home {    
+    font-size: 0.7rem;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:120px;
+    padding-right:120px;
+    border-radius:35px;
+    font-weight: 500;
+    border:none; 
+    }
+    .boton-personalizado-home:hover{
+        background-color: #ffdd40;
+    }
+    .boton-personalizado-home a:hover{
+        color:#333333;
+    }
+
+    .boton-personalizado-home a{
+        text-decoration: none;
+        color:#333333;
+    }
+   
+    @media screen and (max-width: 560px) {
+        .homes{
+
+            height: 100px;
+        }.boton-personalizado-home {    
+            font-size: 0.7rem;
+            padding-top:8px;
+            padding-bottom:8px;
+            padding-left:60px;
+            padding-right:60px;
+            border-radius:35px;
+            }
+            .homes h3{  
+                font-size: 1.3rem;
+                margin: 10px;
+            }
+            .homes{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 80px;
+            }
+            
+      }

@@ -1,0 +1,23 @@
+.Maps{
+    border: solid 2px rosybrown;
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.Maps h2{
+    margin-top: 30%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.formularioC{
+    background-color: red;
+    border: solid rebeccapurple 4px;
+}
+.tituloC{
+    border: solid black 4px;
+    width: 70%;
+    margin: auto;
+}

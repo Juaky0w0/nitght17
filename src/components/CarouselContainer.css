@@ -1,0 +1,103 @@
+/*Slider producto*/
+.texts{
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    margin: auto;
+}
+.texts h3{  
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+.texts p{
+    font-size: 1.2rem;
+
+}
+.boton-personalizado-4 {    
+    font-size: 0.7rem;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:35px;
+    margin-bottom: 50px;
+    width: 280px;
+    font-weight: 500;
+    border:none; 
+    }
+    .boton-personalizado-4:hover{
+        background-color: #ffdd40;
+    }
+    .boton-personalizado-4 a:hover{
+        color:#333333;
+    }
+
+    .boton-personalizado-4 a{
+        text-decoration: none;
+        color:#333333;
+    }
+
+       /*tableta horizontal*/
+       @media screen and (max-width:  820px) {
+    
+        .boton-personalizado-4 {    
+            font-size: 0.7rem;
+            padding-top:6px;
+            padding-bottom:6px;
+            margin-bottom: 10px;
+            }
+            .texts h3{  
+                font-size: 1.8rem;
+            }
+            .texts p{
+                font-size: 1rem;
+               
+            }
+      }
+      @media screen and (max-width:  680px) {
+
+        .boton-personalizado-4 {    
+            font-size: 0.6rem;
+            width: 250px;
+            margin-bottom: 5px;
+            }
+            .texts h3{  
+                font-size: 1.5rem;
+            }
+      }
+      @media screen and (max-width:550px) {
+
+        .img-baner .d-block{
+        height: 600px;
+        object-position:center;
+        -o-object-position: 0rem;
+        object-fit: cover;
+         }
+
+         .boton-personalizado-4{
+        font-size: 0.7rem;
+        padding-left:10px;
+        padding-right:10px;
+        margin-bottom: 30px;
+        font-weight: 500;
+           }
+        .texts h3{  
+            text-align: center;
+            font-size: 2rem;
+        }
+        .texts p{
+            font-size: 1.1rem;
+        }
+    }
+
+    @media screen and (max-width:390px) {
+        .boton-personalizado-4 {    
+            width: 200px;
+            }
+    }
+
+/*Slider Services*/
+ 

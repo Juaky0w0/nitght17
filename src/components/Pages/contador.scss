@@ -1,0 +1,191 @@
+
+   /*numbers*/
+
+   .container-numero{
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+      box-sizing: border-box;
+    }
+  
+  .contador{
+      position: absolute;
+      width: 56%;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: stretch;
+      overflow: hidden;
+      box-sizing: border-box;
+  
+  }
+  .box-button-activate{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   overflow: hidden;
+   box-sizing: border-box;
+  }
+  .boton-personalizado-activate{
+   border: none;
+   background-color:transparent;
+   color: transparent;
+
+  }
+  .box{
+      margin: 0 30px 0 0;
+  }
+  h3{
+      color: white;
+      font-weight: bold;
+  
+  }
+  .box p{
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      font-weight: 500;
+      line-height: 20px;    
+  }
+  .signo{
+    position: relative;
+    width: 80px;
+    height: auto;
+    display: flex;
+    margin-left: 30%;
+    margin: auto;
+}
+.signo p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 0 2px 0 0;
+}
+  
+  .boton-personalizado-conocenos {    
+      font-size: 0.8rem;
+      padding-top:6px;
+      padding-bottom:6px;
+      padding-left:40px;
+      padding-right:40px;
+      border-radius:35px;
+      margin-top: 25px;
+      border: none;
+      }
+      .boton-personalizado-conocenos:hover{
+          background-color: #ffdd40;
+      }
+    /*media*/
+    @media screen and (max-width: 1345px) {
+      .contador{
+          width: 60%;
+
+      }
+    }
+    @media screen and (max-width: 1182px) {
+      .contador{
+          width: 65%;
+          top:75%;
+
+      }
+    }
+    @media screen and (max-width: 910px) {
+      .contador{
+          width: 70%;
+      }
+    }
+    @media screen and (max-width: 842px) {
+      .contador{
+          width: 80%;
+      }
+
+     .boton-personalizado-conocenos {    
+         font-size: 0.9rem;
+         }
+    }
+    @media screen and (max-width: 750px) {
+      .contador{
+          width: 90%;
+      }
+     .boton-personalizado-conocenos {    
+         font-size: 0.7rem;
+         }
+    }
+    @media screen and (max-width: 644px) {
+      .contador{
+          width: 90%;
+          top: 70%;
+      }
+      h3{
+         font-size: 1.4rem;
+      }
+     p{
+         font-size: 0.9rem;   
+     }
+     .box{
+      margin: 0 8px 0 0;
+      }
+    }
+
+    @media screen and (max-width:550px) {
+
+      .container-numero >img{
+      height: 550px;
+      object-position:center;
+      object-fit: cover;
+       }
+      .boton-personalizado-conocenos{
+          font-size:0;
+          padding-top:0;
+          padding-bottom:0;
+          padding-left:0;
+          padding-right:0;
+          border-radius:0;
+      }
+      .boton-personalizado-activate{
+         font-size: 0.7rem;
+         font-weight: bold;
+         padding-top:6px;
+         padding-bottom:6px;
+         padding-left:90px;
+         padding-right:90px;
+         border-radius:35px;
+         border: none;
+         background-color: #F8F8F8;;
+         color: black;
+         font-weight: 500;
+        }
+        .boton-personalizado-activate:hover{
+         background-color: #ffdd40;
+      }
+        .box-button-activate{
+         top: 85%;
+        }
+        .contador{
+         width: 85%;
+         top: 70%;
+     }
+     h3{
+        font-size: 1.6rem;
+     }
+    p{
+        font-size: 0.9rem;   
+    }
+    .box{
+     margin: 0 8px 0 0;
+     }
+   }
+   @media screen and (max-width: 436px) {
+      .contador{
+         width: 95%;
+          top: 72%;
+      }
+      .box-button-activate{
+         top: 90%;
+        }
+        p{
+            font-size: 0.8rem;   
+        }
+    }

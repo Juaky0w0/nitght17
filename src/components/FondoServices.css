@@ -1,0 +1,101 @@
+@import url(FondoEmpresa.scss);
+@import url(FondoContact.scss);
+
+.container-title{
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/*title pages*/
+
+.title-empresa{
+
+  color: white;
+}
+.title-service{
+
+  color: black;
+}
+.title-contact{
+  color: white;
+}
+/*parraf page*/
+
+.texto-services{
+color: black;
+margin: auto;
+}
+.texto-empresa{
+  color: white;
+}
+/*body color*/
+.body-color{
+  background-color: #F4F4F4;
+
+}
+@media screen and (max-width:1200px) {
+
+  .container-title{
+    top: 20%;
+  }
+  .texto-services{
+    color: black;
+    margin: auto;
+    width: 300px;
+    }
+
+}
+/*screm services title*/
+@media screen and (max-width:1005px) {
+
+  .container-title{
+    top: 20%;
+  }
+  .texto-services{
+    margin: auto;
+    font-size: 0.9rem;
+    width: 230px;
+    }
+    .title-service{
+      font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width:850px) {
+  .texto-services{
+    font-size: 0.8rem;
+    width: 220px;
+    }
+    .title-service{
+      font-size: 1.2rem;
+    }
+  
+}
+
+/*screm title services and contact*/
+    @media screen and (max-width:550px) {
+
+      .img-baner .d-block{
+      height: 600px;
+      object-position:center;
+      -o-object-position: 0rem;
+      object-fit: cover;
+       }
+       .title-contact{
+        color: transparent;
+       }
+       .title-service{
+        font-size: 1.7rem;
+      }
+      .texto-services{
+        font-size: 0.9rem;
+        }
+  }
+  
+
